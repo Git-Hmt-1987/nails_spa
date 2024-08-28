@@ -738,7 +738,7 @@ body, p, h2, h3, h4, h5, h6 {
 
 .team_people_text .packages_item .packages_item_name {
  font-size: 20px;
- color: #CC8467;
+ color: rgba(196, 120, 106, 1);
  font-family: 'Prata', serif;
  font-weight: 400;
  padding: 8px 0 0 8px;
@@ -746,7 +746,7 @@ body, p, h2, h3, h4, h5, h6 {
 
 .team_people_text .packages_item .packages_item_price {
   font-size: 20px;
- color: #CC8467;
+ color:rgba(196, 120, 106, 1);
  font-family: 'Prata', serif;
  font-weight: 400;
  padding: 8px 0 0 8px;
@@ -944,6 +944,7 @@ body, p, h2, h3, h4, h5, h6 {
   position: fixed;
   top: 25%;
   right: 0;
+
 }
 .fix_arena_contact .contact_btn {
   gap: 16px;
@@ -1565,6 +1566,17 @@ body, p, h2, h3, h4, h5, h6 {
     }
 }
 @media (max-width: 480px){
+
+  .right-info h3 {
+    font-size: 45px;
+    margin-top: 25px;
+  }
+.penetrate-blur h1 {
+    font-size: 120px; 
+  }
+.right-info h1 {
+    font-size: 120px;
+}
 
     .shap_slider_inner .item h4 {
       font-size: 32px;
